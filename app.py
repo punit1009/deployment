@@ -17,7 +17,8 @@ knn = joblib.load('models/KNN.pkl')
 rf = joblib.load('models/rf.pkl')
 
 # Load pre-fitted scaler (you should have saved your scaler during training)
-scaler = joblib.load('scaler\scaler.pkl')  # Correct relative path
+scaler = joblib.load('scaler/scaler.pkl')  # Correct relative path
+  # Correct relative path
  # Make sure you've saved the scaler during training
 
 df = pd.read_csv('kidney-stone-dataset.csv')  # Replace with actual data path
